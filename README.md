@@ -9,11 +9,11 @@
 ## Thành viên
 | Họ tên | Mã sinh viên | Vai trò chính |
 | :--- | :--- | :--- |
-| **Hoàng Tường Anh** | 2413380006 | **Leader, Coordinator & Game Mechanics Designer**<br>*(Tasks: Game flow document, defining rules, limits, and winning conditions for all 3 levels)* |
-| **Nguyễn Minh Tâm** | 2412380044 | **Data Research & Financial Modelling**<br>*(Tasks: Research data of 3 economic crises, do mathematical formulas on Excel: transaction costs, returns, arbitrage, capital...)* |
-| **Trần Thu Anh** | 2412480011 | **Scenario & Financial Modelling**<br>*(Tasks: Create ideas of 3 levels, decide which currency, selling price, purchasing price... and do financial modelling with member 2)* |
-| **Lê Quỳnh Chi** | 2412380012 | **Lead Coder**<br>*(Tasks: Run the core game loop: randomize price generation, trade logic.., dashboards)* |
-| **Hoàng Hà Uyên** | 2412380051 | **Coder / Interface Designer**<br>*(Tasks: Interface designer, make features: countdown timers, motion effects, live P&L tracking)* |
+| **Hoàng Tường Anh** | 2413380006 | Coordinator and Game mechanics designer |
+| **Nguyễn Minh Tâm** | 2412380044 | Data research and Financial metrics |
+| **Trần Thu Anh** | 2412480011 | Content and Logic test |
+| **Lê Quỳnh Chi** | 2412380012 | Backend Developer |
+| **Hoàng Hà Uyên** | 2412380051 | Frontend Developer |
 
 ---
 
@@ -37,21 +37,6 @@
 
 ---
 
-## Scope
-
-### Phase 1: Information Asymmetry (Thị trường sơ khai)
-- Người chơi tận dụng xuất thân và mở rộng quan hệ để tiếp cận nguồn thông tin, săn cơ hội mua rẻ - bán đắt sản phẩm giữa các thương nhân trong thị trường phân mảnh.
-- Nhận diện các dấu hiệu bất ổn cung cầu để kịp thời thoát vị thế trước khi bong bóng đầu cơ sụp đổ.
-
-### Phase 2: Arbitrage Ngoại hối và Đa thị trường (FX Market)
-- Người chơi tính toán và thực thi chiến lược lệch tỷ giá hối đoái giữa các thị trường Onshore/Offshore và chuỗi tỷ giá chéo.
-- Trực tiếp xử lý các ma sát thực tế làm xói mòn lợi nhuận: chênh lệch bid-ask spread, độ trễ khớp lệnh, phí giao dịch và động thái can thiệp từ Ngân hàng Trung ương.
-
-### Phase 3: Arbitrage Lãi suất và Rủi ro Vĩ mô (Carry Trade)
-- Người chơi vay đồng tiền lãi suất thấp để phân bổ vào danh mục tài sản sinh lời cao nhằm thu chênh lệch lợi tức ròng.
-- Theo dõi bảng điều khiển rủi ro toàn cầu và học cách sống sót khi thị trường hoảng loạn kích hoạt làn sóng tháo chạy vị thế hàng loạt.
-
----
 
 ## Tính năng chính
 - **Mô phỏng sự thay đổi của giao dịch Arbitrage qua từng thời kỳ:** Từ giao dịch giữa người với người (Phase 1), đến cross-market arbitrage (Phase 2), đến chiến lược Carry Trade liên thị trường (Phase 3).
